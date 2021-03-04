@@ -988,3 +988,24 @@ Log: Attempted to get User with username trevormul, but this user was not found 
 
 03-03-2021 Wednesday EST 18:00:35 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
 03-03-2021 Wednesday EST 19:31:00 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-03-2021 Wednesday EST 20:18:47 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-03-2021 Wednesday EST 20:28:01 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-03-2021 Wednesday EST 20:36:35 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-03-2021 Wednesday EST 20:36:49 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-03-2021 Wednesday EST 20:52:08 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-03-2021 Wednesday EST 20:54:43 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-03-2021 Wednesday EST 20:57:39 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-03-2021 Wednesday EST 20:57:48 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-03-2021 Wednesday EST 21:06:16 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-03-2021 Wednesday EST 21:14:59 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 21:16:09 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 21:16:23 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-03-2021 Wednesday EST 21:20:14 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-03-2021 Wednesday EST 21:21:25 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-03-2021 Wednesday EST 21:25:18 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-03-2021 Wednesday EST 21:27:04 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-03-2021 Wednesday EST 21:30:29 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-03-2021 Wednesday EST 21:31:33 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-03-2021 Wednesday EST 21:32:19 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-03-2021 Wednesday EST 21:32:26 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-03-2021 Wednesday EST 21:32:36 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3

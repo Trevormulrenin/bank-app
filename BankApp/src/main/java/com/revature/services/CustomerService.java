@@ -7,9 +7,9 @@ import org.apache.log4j.Logger;
 
 import com.revature.dao.CustomerDAO;
 import com.revature.dao.CustomerDAOImpl;
+import com.revature.exceptions.CustomerNotFoundException;
 import com.revature.exceptions.FailedToCreateCustomerException;
 import com.revature.model.Customer;
-import com.revature.ui.CustomerLogIn;
 import com.revature.util.ConnectionUtil;
 
 public class CustomerService {
@@ -38,11 +38,10 @@ public class CustomerService {
 				log.info("Log: Customer created successfully");
 			}
 		} catch (SQLException e) {
-			System.out.println("SQL Error: " + e.getMessage());
 		}
 	}
 
-	public boolean logInVerification(String cUsername, String cPassword) throws SQLException {
+	public boolean logInVerification(String cUsername, String cPassword) throws SQLException, CustomerNotFoundException {
 
 		boolean isSuccess = true;
 
@@ -51,8 +50,7 @@ public class CustomerService {
 
 			if (isSuccess != true) {
 				System.out.println("Incorrect username or password. Please try again");
-				CustomerLogIn cli = new CustomerLogIn();
-				cli.displayApp();
+				throw new CustomerNotFoundException("Customer with username " + cUsername + " was not found.");
 			}
 		} catch (SQLException e) {
 			System.out.println("SQL Error: " + e.getMessage());
@@ -61,13 +59,17 @@ public class CustomerService {
 		return isSuccess;
 	}
 
-	public Customer getCustomerByUsername(String cUsername) throws SQLException {
+	public Customer getCustomerByUsername(String cUsername) throws SQLException, CustomerNotFoundException{
 
 		Customer customer = new Customer();
 
 		try (Connection con = ConnectionUtil.getConnection()) {
-
+			
 			customer = customerDAO.getCustomerByUsername(cUsername, con);
+			
+			if(customer == null) {
+				throw new CustomerNotFoundException("Customer with username " + cUsername + " was not found.");
+			}
 
 		} catch (SQLException e) {
 			System.out.println("SQL Error: " + e.getMessage());

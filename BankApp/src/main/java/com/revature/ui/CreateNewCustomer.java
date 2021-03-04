@@ -12,8 +12,6 @@ public class CreateNewCustomer implements Menu {
 	String pw;
 	String fn;
 	String ln;
-	
-	Customer customer = new Customer();
 
 	public CustomerService customerService;
 
@@ -22,6 +20,8 @@ public class CreateNewCustomer implements Menu {
 	}
 
 	public void displayApp() {
+
+		Customer customer = new Customer();
 
 		System.out.println("Please enter the following credentials: \n");
 
@@ -43,14 +43,14 @@ public class CreateNewCustomer implements Menu {
 
 	if (customer != null) {
 			try {
-				confirmCustomer();
+				confirmCustomer(customer);
 			} catch (FailedToCreateCustomerException e) {
 				e.getMessage();
 			}
 		}
 	}
 
-	public void confirmCustomer() throws FailedToCreateCustomerException {
+	public void confirmCustomer(Customer customer) throws FailedToCreateCustomerException {
 	
 
 		System.out.println("Can you confirm the details below?\n");

@@ -100,12 +100,12 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 	@Override
 	public void removePendingAccount(int customerId, int accountId, boolean isPending, Connection con) throws SQLException {
 
-		String deny = "DELETE FROM bank_app.accounts WHERE is_pending = ? AND account_id = ? AND customer = ?";
+		String deny = "DELETE FROM bank_app.accounts WHERE is_pending = ? AND customer = ? AND account_id = ?";
 		PreparedStatement pstmt = con.prepareStatement(deny);
 
 		pstmt.setBoolean(1, isPending);
-		pstmt.setInt(2, accountId);
-		pstmt.setInt(3, customerId);
+		pstmt.setInt(2, customerId);
+		pstmt.setInt(3, accountId);
 
 		pstmt.executeQuery();
 	}
@@ -125,10 +125,13 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 		ResultSet rs = pstmt.executeQuery();
 		
 		while (rs.next()) {
+			int aId = rs.getInt("account_id");
 			double accountBalance = rs.getDouble("account_balance");
 			String accountName = rs.getString("account_name");
+			int cId = rs.getInt("customer");
+			boolean isP = rs.getBoolean("is_pending");
 			
-			account = new Account(accountId, accountBalance, customerId, accountName, isPending);
+			account = new Account(aId, accountBalance, cId, accountName, isP);
 		}
 		return account;
 	}

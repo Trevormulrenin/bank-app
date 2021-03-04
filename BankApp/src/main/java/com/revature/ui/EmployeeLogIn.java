@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import com.revature.exceptions.AccountNotFoundException;
 import com.revature.exceptions.EmployeeNotFoundException;
 import com.revature.exceptions.NoPendingAccountsException;
 import com.revature.exceptions.NoTransactionsFoundException;
@@ -49,7 +50,8 @@ public class EmployeeLogIn implements Menu {
 				employeeAccountMenuDisplay(employee);
 			}
 		} catch (SQLException | EmployeeNotFoundException e) {
-			e.getMessage();
+			System.out.println(e.getMessage());
+			displayApp();
 		}
 
 	}
@@ -199,7 +201,7 @@ public class EmployeeLogIn implements Menu {
 
 		try {
 			System.out.println(employeeService.getAccountByCustomerIDandPassword(customerId, accountId, isPending));
-		} catch (SQLException e) {
+		} catch (SQLException | AccountNotFoundException e) {
 			e.getMessage();
 		}
 
@@ -216,7 +218,6 @@ public class EmployeeLogIn implements Menu {
 			if (choice == 1) {
 				try {
 					employeeService.confirmPendingAccount(customerId, accountId, isPendingConfirm);
-					System.out.println("Account confirmed successfully");
 				} catch (SQLException e) {
 					e.getMessage();
 				}
@@ -225,7 +226,6 @@ public class EmployeeLogIn implements Menu {
 
 				try {
 					employeeService.removePendingAccount(customerId, accountId, isPendingDeny);
-					System.out.println("Account denied successfully");
 				} catch (SQLException e) {
 					e.getMessage();
 				}

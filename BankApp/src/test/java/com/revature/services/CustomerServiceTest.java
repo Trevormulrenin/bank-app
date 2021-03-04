@@ -35,7 +35,7 @@ public class CustomerServiceTest {
 		mockConnection = mock(Connection.class);
 
 		Customer customer = new Customer(1, "trevormul", "password", "Trevor", "Mulrenin");
-		when(customerDAO.getCustomerByUsername(eq("trevormul"), eq(mockConnection)).thenReturn(customer));
+		when(customerDAO.getCustomerByUsername(eq("trevormul"), eq(mockConnection))).thenReturn(customer);
 
 	}
 
@@ -61,7 +61,7 @@ public class CustomerServiceTest {
 		
 		try (MockedStatic<ConnectionUtil> mockedStatic = Mockito.mockStatic(ConnectionUtil.class)) {
 			mockedStatic.when(ConnectionUtil::getConnection).thenReturn(mockConnection);
-			Customer actual = customerService.getCustomerByUsername("trevormull");
+			customerService.getCustomerByUsername("trevormull");
 		}
 	}
 

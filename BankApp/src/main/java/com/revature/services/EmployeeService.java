@@ -9,13 +9,13 @@ import org.apache.log4j.Logger;
 
 import com.revature.dao.EmployeeDAO;
 import com.revature.dao.EmployeeDAOImpl;
+import com.revature.exceptions.AccountNotFoundException;
 import com.revature.exceptions.EmployeeNotFoundException;
 import com.revature.exceptions.NoPendingAccountsException;
 import com.revature.exceptions.NoTransactionsFoundException;
 import com.revature.model.Account;
 import com.revature.model.Employee;
 import com.revature.model.Transaction;
-import com.revature.ui.EmployeeLogIn;
 import com.revature.util.ConnectionUtil;
 
 public class EmployeeService {
@@ -41,8 +41,6 @@ public class EmployeeService {
 
 			if (isSuccess != true) {
 				log.info("Incorrect employee username or password");
-				EmployeeLogIn eli = new EmployeeLogIn();
-				eli.displayApp();
 				throw new EmployeeNotFoundException("Incorrect username or password. Please try again");
 			}
 		} catch (SQLException e) {
@@ -54,7 +52,7 @@ public class EmployeeService {
 	public Employee getEmployeeByUsername(String eUsername) throws SQLException {
 		Employee employee = new Employee();
 		try (Connection con = ConnectionUtil.getConnection()) {
-			
+
 			employee = employeeDAO.getEmployeeByUsername(eUsername, con);
 
 		} catch (SQLException e) {
@@ -66,6 +64,7 @@ public class EmployeeService {
 	public List<Account> viewAllPendingAccounts(boolean isPending) throws SQLException, NoPendingAccountsException {
 		List<Account> pendingAccounts = new ArrayList<>();
 		try (Connection con = ConnectionUtil.getConnection()) {
+
 			pendingAccounts = employeeDAO.viewAllPendingAccounts(isPending, con);
 			boolean isEmpty = pendingAccounts.isEmpty();
 
@@ -83,6 +82,7 @@ public class EmployeeService {
 		try (Connection con = ConnectionUtil.getConnection()) {
 
 			employeeDAO.confirmPendingAccount(customerId, accountId, isPending, con);
+			System.out.println("Account confirmed successfully");
 
 		} catch (SQLException e) {
 			log.info("Log: Pending account successfully confirmed");
@@ -94,6 +94,7 @@ public class EmployeeService {
 		try (Connection con = ConnectionUtil.getConnection()) {
 
 			employeeDAO.removePendingAccount(customerId, accountId, isPending, con);
+			System.out.println("Account denied successfully");
 
 		} catch (SQLException e) {
 			log.info("Log: Pending account successfully denied");
@@ -101,14 +102,16 @@ public class EmployeeService {
 	}
 
 	public Account getAccountByCustomerIDandPassword(int customerId, int accountId, boolean isPending)
-			throws SQLException {
-		
-		Account account = new Account();
-		
-		try (Connection con = ConnectionUtil.getConnection()) {
+			throws SQLException, AccountNotFoundException {
 
+		Account account = new Account();
+
+		try (Connection con = ConnectionUtil.getConnection()) {
 			account = employeeDAO.getAccountByCustomerIDandPassword(customerId, accountId, isPending, con);
-		}catch(SQLException e) {
+			if (account == null) {
+				throw new AccountNotFoundException("Account not found. Please try again");
+			}
+		} catch (SQLException e) {
 			System.out.println("SQL Error: " + e.getMessage());
 		}
 		return account;

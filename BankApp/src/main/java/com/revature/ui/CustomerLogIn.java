@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import com.revature.exceptions.CustomerNotFoundException;
 import com.revature.model.Account;
 import com.revature.model.Customer;
 import com.revature.services.AccountService;
@@ -49,8 +50,9 @@ public class CustomerLogIn implements Menu {
 				customer = customerService.getCustomerByUsername(un);
 				accountDisplay(customer);
 			}
-		} catch (SQLException e) {
+		} catch (SQLException | CustomerNotFoundException e) {
 			e.getMessage();
+			displayApp();
 		}
 	}
 

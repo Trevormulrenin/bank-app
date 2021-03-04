@@ -60,7 +60,7 @@ public class ApplyForAccount implements Menu {
 
 			if (account != null) {
 				System.out.println("Can you confirm the details of your new Account below?");
-				System.out.println(account.toStringApply());
+				System.out.println(account.toString());
 
 				int choice = 0;
 				boolean isSuccess = true;

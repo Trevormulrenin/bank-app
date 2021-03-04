@@ -10,7 +10,6 @@ import org.apache.log4j.Logger;
 import com.revature.dao.TransactionDAO;
 import com.revature.dao.TransactionDAOImpl;
 import com.revature.exceptions.NoCurrentPendingTransactionsException;
-import com.revature.exceptions.TransactionNotFoundException;
 import com.revature.model.Transaction;
 import com.revature.util.ConnectionUtil;
 

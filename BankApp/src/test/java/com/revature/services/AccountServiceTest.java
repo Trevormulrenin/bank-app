@@ -85,7 +85,7 @@ public class AccountServiceTest {
 	}
 	
 	@Test
-	public void testValidGetAccountByCustomerAndAccountId() throws SQLException {
+	public void testValidGetAccountByCustomerAndAccountId() throws SQLException, AccountNotFoundException {
 		try (MockedStatic<ConnectionUtil> mockedStatic = Mockito.mockStatic(ConnectionUtil.class)) {
 			mockedStatic.when(ConnectionUtil::getConnection).thenReturn(mockConnection);
 			
