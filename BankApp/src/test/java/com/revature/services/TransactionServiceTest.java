@@ -18,7 +18,7 @@ import org.mockito.Mockito;
 
 import com.revature.dao.TransactionDAO;
 import com.revature.exceptions.NoCurrentPendingTransactionsException;
-import com.revature.exceptions.TransactionNotFoundException;
+import com.revature.exceptions.NoTransactionsFoundException;
 import com.revature.model.Transaction;
 import com.revature.util.ConnectionUtil;
 
@@ -48,7 +48,7 @@ public class TransactionServiceTest {
 	}
 	
 	@Test
-	public void testValidTransactionByTransactionId() throws SQLException, TransactionNotFoundException {
+	public void testValidTransactionByTransactionId() throws SQLException, NoTransactionsFoundException {
 		try (MockedStatic<ConnectionUtil> mockedStatic = Mockito.mockStatic(ConnectionUtil.class)) {
 			mockedStatic.when(ConnectionUtil::getConnection).thenReturn(mockConnection);
 		Transaction actual = transactionService.getTransactionByTransactionId(1, 1, 1);

@@ -8,7 +8,7 @@ import com.revature.model.Transaction;
 
 public interface TransactionDAO {
 	public void executeNewTransaction(double transactionAmount, int accountSenderAccountId, int accountSenderCustomerId,
-			int accountReceiverAccountId, int accountReceiverCustomerId, boolean isPendingTransaction, Connection con) throws SQLException;
+			int accountReceiverAccountId, int accountReceiverCustomerId, boolean isPendingTransaction, int transactionId, Connection con) throws SQLException;
 	
 	public void createNewTransaction(int accountSenderCustomerId, int accountSenderAccountId, int accountReceiverCustomerId,
 			int accountReceiverAccountId, double transactionAmount, boolean isPendingTransaction, Connection con) throws SQLException;

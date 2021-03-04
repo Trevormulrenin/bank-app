@@ -37,10 +37,6 @@ public class AccountServiceTest {
 		accountDAO = mock(AccountDAO.class);
 		mockConnection = mock(Connection.class);
 		
-		//when(accountDAO.getCustomerByUsername(eq("trevormul"), any(Connection.class))).thenReturn
-			//	(new Customer(1, "trevormul", "password", "Trevor", "Mulrenin"));
-		
-		
 		List<Account> accounts = new ArrayList<>();
 		accounts.add(new Account(999200.56, 1, "Checkings", false));
 		accounts.add(new Account(10000.2, 1, "Savings2", false));
@@ -89,8 +85,7 @@ public class AccountServiceTest {
 		try (MockedStatic<ConnectionUtil> mockedStatic = Mockito.mockStatic(ConnectionUtil.class)) {
 			mockedStatic.when(ConnectionUtil::getConnection).thenReturn(mockConnection);
 			
-			Account actual = accountService.getAccountByCustomerAndAccountId(1, 1, false);
-			
+			accountService.getAccountByCustomerAndAccountId(1, 1, false);
 		}
 	}
 }

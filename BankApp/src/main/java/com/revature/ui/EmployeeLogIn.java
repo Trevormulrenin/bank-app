@@ -71,7 +71,7 @@ public class EmployeeLogIn implements Menu {
 			try {
 				choice = Integer.parseInt(sc.nextLine());
 			} catch (NumberFormatException e) {
-				e.getMessage();
+				System.out.println(e.getMessage());
 			}
 
 			switch (choice) {
@@ -88,7 +88,7 @@ public class EmployeeLogIn implements Menu {
 					try {
 						customerId = Integer.parseInt(sc.nextLine());
 					} catch (NumberFormatException e) {
-						e.getMessage();
+						System.out.println(e.getMessage());
 					}
 
 					// AccountId
@@ -97,7 +97,7 @@ public class EmployeeLogIn implements Menu {
 					try {
 						accountId = Integer.parseInt(sc.nextLine());
 					} catch (NumberFormatException e) {
-						e.getMessage();
+						System.out.println(e.getMessage());
 					}
 
 					confirmAccount(customerId, accountId);
@@ -107,7 +107,7 @@ public class EmployeeLogIn implements Menu {
 					try {
 						eDecision = Integer.parseInt(sc.nextLine());
 					} catch (NumberFormatException e) {
-						e.getMessage();
+						System.out.println(e.getMessage());
 					}
 
 					if (eDecision == 1) {
@@ -121,7 +121,7 @@ public class EmployeeLogIn implements Menu {
 					}
 
 				} catch (SQLException | NoPendingAccountsException e) {
-					e.getMessage();
+					System.out.println(e.getMessage());
 					isSuccess = false;
 				}
 				break;
@@ -131,7 +131,7 @@ public class EmployeeLogIn implements Menu {
 				try {
 					selectedCustomerId = Integer.parseInt(sc.nextLine());
 				} catch (NumberFormatException e) {
-					e.getMessage();
+					System.out.println(e.getMessage());
 				}
 
 				viewAllCustomerAccounts(selectedCustomerId);
@@ -141,7 +141,7 @@ public class EmployeeLogIn implements Menu {
 				try {
 					eDecision2 = Integer.parseInt(sc.nextLine());
 				} catch (NumberFormatException e) {
-					e.getMessage();
+					System.out.println(e.getMessage());
 				}
 
 				if (eDecision2 == 1) {
@@ -168,25 +168,28 @@ public class EmployeeLogIn implements Menu {
 					try {
 						eDecision3 = Integer.parseInt(sc.nextLine());
 					} catch (NumberFormatException e) {
-						e.getMessage();
+						System.out.println(e.getMessage());
 
 						if (eDecision3 == 1) {
 							isSuccess = false;
 						} else if (eDecision3 == 2) {
 							System.out.println("Thank you for visiting! Have a good day.");
 							isSuccess = true;
+							System.exit(0);
+							break;
 						} else {
 							System.out.println("Invalid input. Please try again");
 							isSuccess = false;
 						}
 					}
 				} catch (SQLException | NoTransactionsFoundException e) {
-					e.getMessage();
+					System.out.println(e.getMessage());
 				}
 				break;
 			case 4:
 				System.out.println("Thank you for visiting! Have a good day.");
 				isSuccess = true;
+				System.exit(0);
 				break;
 			}
 		} while (isSuccess == false);
@@ -202,7 +205,7 @@ public class EmployeeLogIn implements Menu {
 		try {
 			System.out.println(employeeService.getAccountByCustomerIDandPassword(customerId, accountId, isPending));
 		} catch (SQLException | AccountNotFoundException e) {
-			e.getMessage();
+			System.out.println(e.getMessage());
 		}
 
 		System.out.println("Type (1) to confirm account");
@@ -213,13 +216,14 @@ public class EmployeeLogIn implements Menu {
 			try {
 				choice = Integer.parseInt(sc.nextLine());
 			} catch (NumberFormatException e) {
+				System.out.println(e.getMessage());
 			}
 
 			if (choice == 1) {
 				try {
 					employeeService.confirmPendingAccount(customerId, accountId, isPendingConfirm);
 				} catch (SQLException e) {
-					e.getMessage();
+					System.out.println(e.getMessage());
 				}
 				retryMethod = true;
 			} else if (choice == 2) {
@@ -227,7 +231,7 @@ public class EmployeeLogIn implements Menu {
 				try {
 					employeeService.removePendingAccount(customerId, accountId, isPendingDeny);
 				} catch (SQLException e) {
-					e.getMessage();
+					System.out.println(e.getMessage());
 				}
 				retryMethod = true;
 			} else {
@@ -247,7 +251,7 @@ public class EmployeeLogIn implements Menu {
 			}
 
 		} catch (SQLException e1) {
-			e1.getMessage();
+			System.out.println(e1.getMessage());
 		}
 	}
 }

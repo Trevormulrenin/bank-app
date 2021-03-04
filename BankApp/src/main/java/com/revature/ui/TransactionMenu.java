@@ -7,6 +7,7 @@ import java.util.List;
 import org.apache.log4j.Logger;
 
 import com.revature.exceptions.NoCurrentPendingTransactionsException;
+import com.revature.exceptions.NoTransactionsFoundException;
 import com.revature.model.Account;
 import com.revature.model.Customer;
 import com.revature.model.Transaction;
@@ -49,7 +50,8 @@ public class TransactionMenu implements Menu {
 
 		try {
 			choice = Integer.parseInt(sc.nextLine());
-		} catch (NumberFormatException e2) {
+		} catch (NumberFormatException e) {
+			System.out.println(e.getMessage());
 		}
 
 		switch (choice) {
@@ -61,10 +63,10 @@ public class TransactionMenu implements Menu {
 					pendingTransactions = transactionService.getAllIncomingTransactionsByCustomerAndAccountId(
 							customer.getCustomerId(), account.getAccountId(), isPendingTransaction);
 				} catch (NoCurrentPendingTransactionsException e) {
-					e.getMessage();
+					System.out.println(e.getMessage());
 				}
 			} catch (SQLException e) {
-				e.getMessage();
+				System.out.println(e.getMessage());
 			}
 			for (Transaction t : pendingTransactions) {
 				System.out.println(t.toString());
@@ -76,6 +78,7 @@ public class TransactionMenu implements Menu {
 			try {
 				transactionId = Integer.parseInt(sc.nextLine());
 			} catch (NumberFormatException e) {
+				System.out.println(e.getMessage());
 			}
 
 			if (transactionId == 0) {
@@ -87,8 +90,8 @@ public class TransactionMenu implements Menu {
 							customer.getCustomerId(), account.getAccountId());
 					System.out.println(transaction);
 					confirmTransaction(transaction);
-				} catch (SQLException e1) {
-					e1.getMessage();
+				} catch (SQLException | NoTransactionsFoundException e1) {
+					System.out.println(e1.getMessage());
 					displayApp();
 				}
 			}
@@ -102,7 +105,7 @@ public class TransactionMenu implements Menu {
 			try {
 				accountSenderCustomerId = Integer.parseInt(sc.nextLine());
 			} catch (NumberFormatException e2) {
-				e2.getMessage();
+				System.out.println(e2.getMessage());
 				displayApp();
 			}
 			// Sender Account
@@ -111,7 +114,7 @@ public class TransactionMenu implements Menu {
 			try {
 				accountSenderAccountId = Integer.parseInt(sc.nextLine());
 			} catch (NumberFormatException e2) {
-				e2.getMessage();
+				System.out.println(e2.getMessage());
 				displayApp();
 			}
 
@@ -124,8 +127,8 @@ public class TransactionMenu implements Menu {
 				displayApp();
 				break;
 			} else {
-				log.info("\nVerification successful from customer with ID: " + customer.getCustomerId() + " and account: "
-						+ account.getAccountId());
+				log.info("\nVerification successful from customer with ID: " + customer.getCustomerId()
+						+ " and account: " + account.getAccountId());
 				System.out.println(
 						"\nPlease type in the customer and account ID for the account you wish to transfer to: \n");
 
@@ -135,7 +138,7 @@ public class TransactionMenu implements Menu {
 				try {
 					accountReceiverCustomerId = Integer.parseInt(sc.nextLine());
 				} catch (NumberFormatException e) {
-					e.getMessage();
+					System.out.println(e.getMessage());
 					displayApp();
 				}
 				// Receiver Account
@@ -144,19 +147,20 @@ public class TransactionMenu implements Menu {
 				try {
 					accountReceiverAccountId = Integer.parseInt(sc.nextLine());
 				} catch (NumberFormatException e) {
-					e.getMessage();
+					System.out.println(e.getMessage());
 					displayApp();
 				}
 				// Transaction Amount
 				System.out.println("Please provide the transaction amount: ");
 				double transactionAmount = 0;
 				try {
-					transactionAmount = Integer.parseInt(sc.nextLine());
+					transactionAmount = Double.parseDouble(sc.nextLine());
 				} catch (NumberFormatException e) {
-					e.getMessage();
+					System.out.println(e.getMessage());
 					displayApp();
 				}
 
+				// Test Invalid Transaction Amount
 				if (transactionAmount > account.getAccountBalance()) {
 					System.out.println("Invalid funds, please try again");
 					displayApp();
@@ -171,7 +175,7 @@ public class TransactionMenu implements Menu {
 						displayApp();
 						break;
 					} catch (SQLException e) {
-						e.getMessage();
+						System.out.println(e.getMessage());
 						displayApp();
 					}
 				}
@@ -191,7 +195,7 @@ public class TransactionMenu implements Menu {
 	}
 
 	private void confirmTransaction(Transaction transaction) {
-		isPendingTransaction = false;
+		boolean isPTransaction = false;
 		System.out.println("Type 1 to confirm transaction, type 2 to deny transaction");
 
 		int choice = 0;
@@ -199,7 +203,7 @@ public class TransactionMenu implements Menu {
 		try {
 			choice = Integer.parseInt(sc.nextLine());
 		} catch (NumberFormatException e) {
-			e.getMessage();
+			System.out.println(e.getMessage());
 			displayApp();
 		}
 
@@ -208,11 +212,11 @@ public class TransactionMenu implements Menu {
 				transactionService.executeNewTransaction(transaction.getTransactionAmount(),
 						transaction.getAccountSenderAccountId(), transaction.getAccountSenderCustomerId(),
 						transaction.getAccountReceiverAccountId(), transaction.getAccountReceiverCustomerId(),
-						isPendingTransaction);
+						transaction.getTransactionId(), isPTransaction);
 				System.out.println("\nTransaction successfully confirmed\n");
 				displayApp();
 			} catch (SQLException e) {
-				e.getMessage();
+				System.out.println(e.getMessage());
 				displayApp();
 			}
 		} else if (choice == 2) {
@@ -221,7 +225,7 @@ public class TransactionMenu implements Menu {
 				System.out.println("\nTransaction successfully denied\n");
 				displayApp();
 			} catch (SQLException e) {
-				e.getMessage();
+				System.out.println(e.getMessage());
 				displayApp();
 			}
 		} else {

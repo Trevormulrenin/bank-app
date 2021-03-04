@@ -119,5 +119,10 @@ public class Customer {
 		return "Customer [Customer Id: " + customerId + ", Username=" + cUsername + ", Password=" + cPassword
 				+ ", First Name=" + cFirstName + ", Last Name=" + cLastname + "]";
 	}
+	
+	public String toStringApply() {
+		return "Customer [Username=" + cUsername + ", Password=" + cPassword
+				+ ", First Name=" + cFirstName + ", Last Name=" + cLastname + "]";
+	}
 
 }

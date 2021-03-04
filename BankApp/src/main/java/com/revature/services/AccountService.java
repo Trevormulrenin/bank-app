@@ -72,7 +72,6 @@ public class AccountService {
 			}
 
 		} catch (SQLException e) {
-			System.out.println("SQL Error: " + e.getMessage());
 		}
 	}
 
@@ -86,7 +85,6 @@ public class AccountService {
 
 		} catch (SQLException e) {
 			System.out.println("SQL Error: " + e.getMessage());
-			return null;
 		}
 		return accounts;
 	}

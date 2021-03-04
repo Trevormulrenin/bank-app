@@ -50,7 +50,7 @@ public class CustomerService {
 
 			if (isSuccess != true) {
 				System.out.println("Incorrect username or password. Please try again");
-				throw new CustomerNotFoundException("Customer with username " + cUsername + " was not found.");
+				throw new CustomerNotFoundException("Customer with username " + cUsername + " and password " + cPassword + " was not found.");
 			}
 		} catch (SQLException e) {
 			System.out.println("SQL Error: " + e.getMessage());

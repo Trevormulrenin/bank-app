@@ -60,7 +60,7 @@ public class ApplyForAccount implements Menu {
 
 			if (account != null) {
 				System.out.println("Can you confirm the details of your new Account below?");
-				System.out.println(account.toString());
+				System.out.println(account.toStringApply());
 
 				int choice = 0;
 				boolean isSuccess = true;
@@ -72,6 +72,7 @@ public class ApplyForAccount implements Menu {
 					try {
 						choice = Integer.parseInt(sc.nextLine());
 					} catch (NumberFormatException e) {
+						System.out.println(e.getMessage());
 					}
 
 					switch (choice) {
@@ -84,7 +85,7 @@ public class ApplyForAccount implements Menu {
 							CustomerLogIn cli = new CustomerLogIn();
 							cli.accountDisplay(customer);
 						} catch (SQLException | FailedToCreatePendingAccountException e1) {
-							e1.getMessage();
+							System.out.println(e1.getMessage());
 						}
 						isSuccess = false;
 						break;

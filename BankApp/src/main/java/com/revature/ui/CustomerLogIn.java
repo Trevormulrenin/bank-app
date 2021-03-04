@@ -13,9 +13,6 @@ import com.revature.services.CustomerService;
 
 public class CustomerLogIn implements Menu {
 
-	// WHEN I RECALL THE VIEWALLACCOUNTS METHOD, IT WONT LET ME PUT IN USER INPUT A
-	// SECOND TIME, ASK JAKE
-
 	public CustomerService customerService;
 	public AccountService accountService;
 	boolean isSuccess = false;
@@ -51,12 +48,13 @@ public class CustomerLogIn implements Menu {
 				accountDisplay(customer);
 			}
 		} catch (SQLException | CustomerNotFoundException e) {
-			e.getMessage();
+			System.out.println(e.getMessage());
 			displayApp();
 		}
 	}
 
 	public void accountDisplay(Customer customer) {
+		
 		System.out.println("Welcome " + customer.getcFirstName() + "!\n");
 		System.out.println("Select an option from the navigation menu");
 		System.out.println("1. View all accounts");
@@ -68,6 +66,7 @@ public class CustomerLogIn implements Menu {
 		try {
 			choice = Integer.parseInt(sc.nextLine());
 		} catch (NumberFormatException e2) {
+			System.out.println(e2.getMessage());
 		}
 
 		switch (choice) {
@@ -80,9 +79,11 @@ public class CustomerLogIn implements Menu {
 			break;
 		case 3:
 			System.out.println("Thank you for visiting. Come back soon!");
+			System.exit(0);
 			break;
 		default:
 			System.out.println("Invalid input. Please try again");
+			displayApp();
 			break;
 		}
 	}
@@ -106,7 +107,7 @@ public class CustomerLogIn implements Menu {
 				try {
 					accountChoice = Integer.parseInt(sc.nextLine());
 				} catch (NumberFormatException e) {
-					e.getMessage();
+					System.out.println(e.getMessage());
 				}
 				
 				if(accountChoice == 0) {
@@ -117,7 +118,7 @@ public class CustomerLogIn implements Menu {
 					account = accountService.getAccountByCustomerAndAccountId(customer.getCustomerId(), accountChoice, isPending);
 					System.out.println("\n" + account);
 				} catch (SQLException e) {
-					e.getMessage();
+					System.out.println(e.getMessage());
 				}
 
 				System.out.println("\nIs this the account you would like to view? Type 1 for Yes, Type 2 for No");
@@ -134,11 +135,12 @@ public class CustomerLogIn implements Menu {
 					isSuccess = true;
 				} else {
 					System.out.println("Invalid input, please try again");
+					viewAllAccounts(customer);
 					isSuccess = false;
 				}
 
 			} catch (SQLException e) {
-				e.getMessage();
+				System.out.println(e.getMessage());
 			}
 		} while (isSuccess = false);
 	}

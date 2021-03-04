@@ -39,7 +39,7 @@ public class AccountMenu implements Menu {
 		try {
 			inputId = Integer.parseInt(sc.nextLine());
 		} catch (NumberFormatException e) {
-			e.getMessage();
+			System.out.println(e.getMessage());
 		}
 
 		do {
@@ -58,7 +58,7 @@ public class AccountMenu implements Menu {
 				try {
 					choice = Integer.parseInt(sc.nextLine());
 				} catch (NumberFormatException e) {
-					e.getMessage();
+					System.out.println(e.getMessage());
 				}
 
 				switch (choice) {
@@ -71,7 +71,7 @@ public class AccountMenu implements Menu {
 					try {
 						returnChoice = Integer.parseInt(sc.nextLine());
 					}catch(NumberFormatException e) {
-						e.getMessage();
+						System.out.println(e.getMessage());
 					}
 
 					if (returnChoice == 0) {
@@ -85,7 +85,7 @@ public class AccountMenu implements Menu {
 					try {
 						returnChoice2 = Integer.parseInt(sc.nextLine());
 					} catch (NumberFormatException e) {
-						e.getMessage();
+						System.out.println(e.getMessage());
 					}
 
 					if (returnChoice2 == 0) {
@@ -130,7 +130,7 @@ public class AccountMenu implements Menu {
 		try {
 			wd = Integer.parseInt(sc.nextLine());
 		} catch (NumberFormatException e) {
-			e.getMessage();
+			System.out.println(e.getMessage());
 		}
 
 		switch (wd) {
@@ -140,7 +140,7 @@ public class AccountMenu implements Menu {
 			try {
 				withdraw = Double.parseDouble(sc.nextLine());
 			} catch (NumberFormatException e) {
-				e.getMessage();
+				System.out.println(e.getMessage());
 			}
 			double newBalanceAfterWithdrawal = account.getAccountBalance() - withdraw;
 
@@ -149,7 +149,7 @@ public class AccountMenu implements Menu {
 				System.out.println("Your updated balance is: " + newBalanceAfterWithdrawal);
 
 			} catch (SQLException | InvalidWithdrawalException e) {
-				e.getMessage();
+				System.out.println(e.getMessage());
 			}
 			break;
 		case 2:
@@ -158,7 +158,7 @@ public class AccountMenu implements Menu {
 			try {
 				deposit = Double.parseDouble(sc.nextLine());
 			} catch (NumberFormatException e) {
-				e.getMessage();
+				System.out.println(e.getMessage());
 			}
 
 			double newBalanceAfterDeposit = account.getAccountBalance() + deposit;
@@ -167,7 +167,7 @@ public class AccountMenu implements Menu {
 				accountService.depositToAccount(account.getAccountId(), deposit, isPending, account);
 				System.out.println("Your updated balance is: " + newBalanceAfterDeposit);
 			} catch (SQLException | InvalidDepositException e) {
-				e.getMessage();
+				System.out.println(e.getMessage());
 			}
 		}
 	}

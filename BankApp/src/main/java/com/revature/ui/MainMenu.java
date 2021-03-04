@@ -16,6 +16,7 @@ public class MainMenu implements Menu {
 		try {
 			choice = Integer.parseInt(sc.nextLine());
 		} catch (NumberFormatException e) {
+			System.out.println(e.getMessage());
 		}
 
 		switch (choice) {

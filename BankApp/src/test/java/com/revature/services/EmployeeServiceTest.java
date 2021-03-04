@@ -1,7 +1,6 @@
 package com.revature.services;
 
 import static org.junit.Assert.assertEquals;
-import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -15,7 +14,6 @@ import org.junit.Test;
 import org.mockito.MockedStatic;
 import org.mockito.Mockito;
 
-import com.revature.dao.CustomerDAO;
 import com.revature.dao.EmployeeDAO;
 import com.revature.exceptions.EmployeeNotFoundException;
 import com.revature.util.ConnectionUtil;
@@ -57,7 +55,7 @@ public class EmployeeServiceTest {
 		try (MockedStatic<ConnectionUtil> mockedStatic = Mockito.mockStatic(ConnectionUtil.class)) {
 			mockedStatic.when(ConnectionUtil::getConnection).thenReturn(mockConnection);
 		
-			boolean actual = employeeService.eLogInVerification("JonD123", "JohnDoe123");
+			employeeService.eLogInVerification("JonD123", "JohnDoe123");
 		}
 	}
 }

@@ -12,14 +12,13 @@ import com.revature.model.Transaction;
 public class TransactionDAOImpl implements TransactionDAO {
 
 	public void executeNewTransaction(double transactionAmount, int accountSenderAccountId, int accountSenderCustomerId,
-			int accountReceiverAccountId, int accountReceiverCustomerId, boolean isPendingTransaction, Connection con)
+			int accountReceiverAccountId, int accountReceiverCustomerId, boolean isPendingTransaction, int transactionID, Connection con)
 			throws SQLException {
 
 		String executeTransaction = "BEGIN TRANSACTION;"
 				+ "UPDATE bank_app.accounts SET account_balance = account_balance - ? WHERE account_id = ? AND customer = ?;"
 				+ "UPDATE bank_app.accounts SET account_balance = account_balance + ? WHERE account_id = ? AND customer = ?;"
-				+ "UPDATE bank_app.transactions SET is_pending_transaction = ? WHERE account_sender_account_id = ? AND account_sender_customer_id = ?;"
-				+ "UPDATE bank_app.transactions SET is_pending_transaction = ? WHERE account_receiver_account_id = ? AND account_receiver_customer_id = ?;"
+				+ "UPDATE bank_app.transactions SET is_pending_transaction = ? WHERE transaction_id = ?;"
 				+ "COMMIT;";
 		PreparedStatement pstmt = con.prepareStatement(executeTransaction);
 
@@ -28,18 +27,13 @@ public class TransactionDAOImpl implements TransactionDAO {
 		pstmt.setInt(2, accountSenderAccountId);
 		pstmt.setInt(3, accountSenderCustomerId);
 
-		pstmt.setBoolean(7, isPendingTransaction);
-		pstmt.setInt(8, accountSenderAccountId);
-		pstmt.setInt(9, accountSenderCustomerId);
-
 		// Receiver
 		pstmt.setDouble(4, transactionAmount);
 		pstmt.setInt(5, accountReceiverAccountId);
 		pstmt.setInt(6, accountReceiverCustomerId);
-
-		pstmt.setBoolean(10, isPendingTransaction);
-		pstmt.setInt(11, accountReceiverAccountId);
-		pstmt.setInt(12, accountReceiverCustomerId);
+		
+		pstmt.setBoolean(7, isPendingTransaction);
+		pstmt.setInt(8, transactionID);
 
 		pstmt.executeQuery();
 	}
@@ -49,11 +43,8 @@ public class TransactionDAOImpl implements TransactionDAO {
 			int accountReceiverCustomerId, int accountReceiverAccountId, double transactionAmount,
 			boolean isPendingTransaction, Connection con) throws SQLException {
 
-		String createTransaction = "BEGIN TRANSACTION;"
-				+ "INSERT INTO bank_app.transactions(transaction_amount, is_pending_transaction, account_sender_account_id,"
-				+ "account_sender_customer_id, account_receiver_account_id, account_receiver_customer_id) VALUES(?, ?, ?, ?, ?, ?);"
-				+ "UPDATE bank_app.accounts SET is_pending_transaction = ? WHERE customer = ? AND account_id = ?;"
-				+ "COMMIT;";
+		String createTransaction = "INSERT INTO bank_app.transactions(transaction_amount, is_pending_transaction, account_sender_account_id,"
+				+ "account_sender_customer_id, account_receiver_account_id, account_receiver_customer_id) VALUES(?, ?, ?, ?, ?, ?)";
 
 		PreparedStatement pstmt = con.prepareStatement(createTransaction);
 
@@ -64,11 +55,6 @@ public class TransactionDAOImpl implements TransactionDAO {
 		pstmt.setInt(4, accountSenderCustomerId);
 		pstmt.setInt(5, accountReceiverAccountId);
 		pstmt.setInt(6, accountReceiverCustomerId);
-
-		// Pending Transactions Account Reference
-		pstmt.setBoolean(7, isPendingTransaction);
-		pstmt.setInt(8, accountReceiverCustomerId);
-		pstmt.setInt(9, accountReceiverAccountId);
 
 		pstmt.executeQuery();
 	}
@@ -124,14 +110,13 @@ public class TransactionDAOImpl implements TransactionDAO {
 		while (rs.next()) {
 			int transactionId = rs.getInt("transaction_id");
 			double transactionAmount = rs.getDouble("transaction_amount");
-			boolean pendingTransaction = rs.getBoolean("is_pending_transaction");
 			int accountSenderAccountId = rs.getInt("account_sender_account_id");
 			int accountSenderCustomerId = rs.getInt("account_sender_customer_id");
 			int accountReceiverAccountId = rs.getInt("account_receiver_account_id");
 			int accountReceiverCustomerId = rs.getInt("account_receiver_customer_id");
 
 			pendingTransactions.add(new Transaction(transactionId, transactionAmount, accountSenderAccountId,
-					accountSenderCustomerId, accountReceiverAccountId, accountReceiverCustomerId, pendingTransaction));
+					accountSenderCustomerId, accountReceiverAccountId, accountReceiverCustomerId, isPendingTransaction));
 		}
 		return pendingTransactions;
 

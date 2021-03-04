@@ -40,7 +40,7 @@ public class EmployeeService {
 			isSuccess = employeeDAO.eLogInVerification(eUsername, ePassword, con);
 
 			if (isSuccess != true) {
-				log.info("Incorrect employee username or password");
+				log.info("Log: Incorrect employee username or password");
 				throw new EmployeeNotFoundException("Incorrect username or password. Please try again");
 			}
 		} catch (SQLException e) {
@@ -125,7 +125,7 @@ public class EmployeeService {
 			boolean isEmpty = t.isEmpty();
 
 			if (isEmpty == true) {
-				throw new NoTransactionsFoundException("No Transactions to view");
+				throw new NoTransactionsFoundException("No Transactions to View");
 			}
 		} catch (SQLException e) {
 			System.out.println("SQL Error: " + e.getMessage());

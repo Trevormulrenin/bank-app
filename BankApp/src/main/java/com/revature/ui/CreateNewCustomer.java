@@ -45,7 +45,7 @@ public class CreateNewCustomer implements Menu {
 			try {
 				confirmCustomer(customer);
 			} catch (FailedToCreateCustomerException e) {
-				e.getMessage();
+				System.out.println(e.getMessage());
 			}
 		}
 	}
@@ -54,7 +54,7 @@ public class CreateNewCustomer implements Menu {
 	
 
 		System.out.println("Can you confirm the details below?\n");
-		System.out.println(customer.toString());
+		System.out.println(customer.toStringApply());
 		System.out.println("\nAre these credentials correct?\n Type Y for Yes and N for No");
 		String createVerification = sc.nextLine().trim();
 
@@ -62,7 +62,7 @@ public class CreateNewCustomer implements Menu {
 			try {
 				customerService.createNewCustomer(un, pw, fn, ln);
 			} catch (SQLException | FailedToCreateCustomerException e) {
-				e.getMessage();
+				System.out.println(e.getMessage());
 			}
 			System.out.println("Thank you. Please try logging in to view your homepage");
 			CustomerLogIn cli = new CustomerLogIn();

@@ -1009,3 +1009,143 @@ Log: Attempted to get User with username trevormul, but this user was not found 
 03-03-2021 Wednesday EST 21:32:19 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
 03-03-2021 Wednesday EST 21:32:26 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
 03-03-2021 Wednesday EST 21:32:36 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 21:43:36 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 21:45:45 {INFO} [com.revature.services.EmployeeService] - Invalid verification from customer with ID: 1 and account: 2
+03-03-2021 Wednesday EST 21:45:52 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 1 and account: 2
+03-03-2021 Wednesday EST 21:47:54 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 1 and account: 1
+03-03-2021 Wednesday EST 21:51:25 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 1 and account: 1
+03-03-2021 Wednesday EST 21:52:04 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 1 and account: 1
+03-03-2021 Wednesday EST 21:53:34 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 1 and account: 1
+03-03-2021 Wednesday EST 21:58:49 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 21:59:04 {INFO} [com.revature.services.EmployeeService] - Log: Incorrect employee username or password
+03-03-2021 Wednesday EST 22:00:32 {INFO} [com.revature.services.EmployeeService] - Log: Incorrect employee username or password
+03-03-2021 Wednesday EST 22:04:10 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 2 and account: 4
+03-03-2021 Wednesday EST 22:05:08 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-03-2021 Wednesday EST 22:05:31 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-03-2021 Wednesday EST 22:08:47 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 3 and account id: 6
+03-03-2021 Wednesday EST 22:08:53 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 3 and account id: 6
+03-03-2021 Wednesday EST 22:13:16 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-04-2021 Thursday EST 08:10:10 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 1 and account: 2
+03-04-2021 Thursday EST 08:14:14 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 08:15:06 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 08:20:45 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 1 and account: 1
+03-04-2021 Thursday EST 08:21:36 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 08:21:46 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 08:21:57 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 08:22:14 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 08:22:22 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 08:25:02 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 08:25:07 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 08:25:17 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 08:28:41 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 08:28:52 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 08:34:15 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 08:35:56 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 08:36:03 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 08:36:23 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 2 and account: 4
+03-04-2021 Thursday EST 08:37:24 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-04-2021 Thursday EST 08:43:06 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-04-2021 Thursday EST 08:44:29 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 5 and account: 6
+03-04-2021 Thursday EST 08:44:41 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 5 and account: 6
+03-04-2021 Thursday EST 08:45:23 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-04-2021 Thursday EST 08:45:32 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-04-2021 Thursday EST 08:45:46 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-04-2021 Thursday EST 08:48:57 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 08:49:14 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 08:49:25 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 08:49:59 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-04-2021 Thursday EST 08:50:28 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 08:53:26 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 08:55:32 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-04-2021 Thursday EST 08:55:39 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 08:57:26 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-04-2021 Thursday EST 08:59:32 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-04-2021 Thursday EST 08:59:39 {INFO} [com.revature.services.EmployeeService] - Log: Incorrect employee username or password
+03-04-2021 Thursday EST 08:59:47 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-04-2021 Thursday EST 09:00:46 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-04-2021 Thursday EST 09:03:02 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 09:03:09 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 09:03:19 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-04-2021 Thursday EST 09:03:24 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 09:03:37 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 09:07:21 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 1 and account: 1
+03-04-2021 Thursday EST 09:07:59 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 09:08:10 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 09:11:44 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 09:11:49 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-04-2021 Thursday EST 09:11:53 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-04-2021 Thursday EST 09:17:25 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 09:20:34 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 09:20:39 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-04-2021 Thursday EST 09:20:43 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-04-2021 Thursday EST 09:23:58 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-04-2021 Thursday EST 09:24:11 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-04-2021 Thursday EST 09:24:26 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 1 and account: 1
+03-04-2021 Thursday EST 09:25:11 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 09:29:11 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 09:29:19 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-04-2021 Thursday EST 09:29:25 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 09:29:32 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-04-2021 Thursday EST 09:30:49 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-04-2021 Thursday EST 09:31:10 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-04-2021 Thursday EST 09:31:28 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 1 and account: 1
+03-04-2021 Thursday EST 09:31:55 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 09:34:34 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 09:34:40 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 09:34:47 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-04-2021 Thursday EST 09:36:18 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-04-2021 Thursday EST 09:36:37 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-04-2021 Thursday EST 09:36:52 {INFO} [com.revature.services.EmployeeService] - Invalid verification from customer with ID: 1 and account: 1
+03-04-2021 Thursday EST 09:37:00 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 1 and account: 1
+03-04-2021 Thursday EST 09:38:42 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 09:38:46 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 09:38:52 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-04-2021 Thursday EST 09:40:06 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-04-2021 Thursday EST 09:40:16 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-04-2021 Thursday EST 09:40:28 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 1 and account: 1
+03-04-2021 Thursday EST 09:41:08 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 09:41:44 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-04-2021 Thursday EST 09:41:50 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 1 and account: 1
+03-04-2021 Thursday EST 09:42:22 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 09:44:54 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-04-2021 Thursday EST 09:45:12 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-04-2021 Thursday EST 09:48:46 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 09:48:51 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 09:48:59 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-04-2021 Thursday EST 09:50:14 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-04-2021 Thursday EST 09:50:25 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-04-2021 Thursday EST 09:50:38 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 1 and account: 1
+03-04-2021 Thursday EST 09:51:16 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 09:52:11 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-04-2021 Thursday EST 09:52:18 {INFO} [com.revature.services.EmployeeService] - Log: Incorrect employee username or password
+03-04-2021 Thursday EST 09:52:25 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-04-2021 Thursday EST 09:55:55 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-04-2021 Thursday EST 10:23:41 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 10:23:46 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-04-2021 Thursday EST 10:23:52 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-04-2021 Thursday EST 10:25:08 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-04-2021 Thursday EST 10:25:18 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-04-2021 Thursday EST 10:25:29 {INFO} [com.revature.services.EmployeeService] - 
+Verification successful from customer with ID: 1 and account: 1
+03-04-2021 Thursday EST 10:25:59 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 2 and account id: 4
+03-04-2021 Thursday EST 10:27:15 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-04-2021 Thursday EST 10:27:26 {INFO} [com.revature.services.EmployeeService] - Log: Incorrect employee username or password
+03-04-2021 Thursday EST 10:27:40 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3

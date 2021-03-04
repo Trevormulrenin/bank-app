@@ -10,6 +10,7 @@ import org.apache.log4j.Logger;
 import com.revature.dao.TransactionDAO;
 import com.revature.dao.TransactionDAOImpl;
 import com.revature.exceptions.NoCurrentPendingTransactionsException;
+import com.revature.exceptions.NoTransactionsFoundException;
 import com.revature.model.Transaction;
 import com.revature.util.ConnectionUtil;
 
@@ -34,23 +35,21 @@ public class TransactionService {
 			
 			transactionDAO.createNewTransaction(accountSenderCustomerId, accountSenderAccountId,
 					accountReceiverCustomerId, accountReceiverAccountId, transactionAmount, isPendingTransaction, con);
-			
+			log.info("Transaction created");
 		} catch (SQLException e) {
-			System.out.println("SQL Error: " + e.getMessage());
 		}
 	}
 
 	public void executeNewTransaction(double transactionAmount, int accountSenderAccountId, int accountSenderCustomerId,
-			int accountReceiverAccountId, int accountReceiverCustomerId, boolean isPendingTransaction)
+			int accountReceiverAccountId, int accountReceiverCustomerId, int transactionId, boolean isPendingTransaction)
 			throws SQLException {
 
 		try (Connection con = ConnectionUtil.getConnection()) {
 			
 			transactionDAO.executeNewTransaction(transactionAmount, accountSenderAccountId, accountSenderCustomerId,
-			accountReceiverAccountId, accountReceiverCustomerId, isPendingTransaction, con);
-			
+			accountReceiverAccountId, accountReceiverCustomerId, isPendingTransaction, transactionId, con);
+			log.info("Transaction confirmed");
 		} catch (SQLException e) {
-			System.out.println("SQL Error: " + e.getMessage());
 		}
 	}
 
@@ -77,16 +76,17 @@ public class TransactionService {
 	}
 
 	public Transaction getTransactionByTransactionId(int transactionId, int customerId, int accountId)
-			throws SQLException{
+			throws SQLException, NoTransactionsFoundException{
 	
 		Transaction t = new Transaction();
 
 		try (Connection con = ConnectionUtil.getConnection()) {
 			
 			t = transactionDAO.getTransactionByTransactionId(transactionId, customerId, accountId, con);
-
+			if(t.getTransactionId() != transactionId) {
+				throw new NoTransactionsFoundException("Transaction with id: " + transactionId + " was not found");
+			}
 		} catch (SQLException e) {
-			System.out.println("SQL Error: " + e.getMessage());
 		}
 		return t;
 	}
@@ -98,7 +98,6 @@ public class TransactionService {
 			transactionDAO.denyNewTransaction(transactionId, con);
 			
 		} catch (SQLException e) {
-			System.out.println("SQL Error: " + e.getMessage());
 		}
 	}
 }
