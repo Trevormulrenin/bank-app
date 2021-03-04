@@ -1,0 +1,63 @@
+package com.revature.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.revature.model.Customer;
+
+public class CustomerDAOImpl implements CustomerDAO {
+
+	public Customer createNewCustomer(String cUsername, String cPassword, String cFirstName, String cLastName, int startingBalance, Connection con) throws SQLException {
+		String sql = "INSERT INTO customer(customer_username, customer_password, customer_first_name, customer_last_name, customer_starting_balance)"
+				+ " VALUES(?, ?, ?, ?)";
+		
+		PreparedStatement pstmt = con.prepareStatement(sql);
+		
+		pstmt.setString(1, cUsername);
+		pstmt.setString(2, cPassword);
+		pstmt.setString(3, cFirstName);
+		pstmt.setString(4,  cLastName);;
+		
+		ResultSet rs = pstmt.executeQuery();
+		
+		Customer customer = null;
+		
+		while(rs.next()) {
+			int customerId = rs.getInt("customer_id");
+			customer.setCustomerId(customerId);
+			customer.setcUsername("customer_username");
+			customer.setcPassword("customer_password");
+			customer.setcFirstName("customer_first_name");
+			customer.setcLastname("customer_last_name");
+			
+			customer = new Customer(customerId, cUsername, cPassword, cFirstName, cLastName, startingBalance);
+		}
+		
+		return customer;
+	}
+
+	public Customer logInVerification(String cUsername, String cPassword, Connection con) throws SQLException {
+		String sql = "SELECT * FROM customers WHERE username = ? AND password = ?";
+		
+		PreparedStatement pstmt = con.prepareStatement(sql);
+		
+		pstmt.setString(1, cUsername);
+		pstmt.setString(2,  cPassword);
+		
+		ResultSet rs = pstmt.executeQuery();
+		
+		Customer customer = null;
+		
+		if(rs.next()){
+			customer = new Customer();
+			customer.setcUsername(rs.getString("customer_username"));
+			customer.setcPassword(rs.getString("customer_password"));
+		}
+		
+		return customer;
+	}
+}
+
+

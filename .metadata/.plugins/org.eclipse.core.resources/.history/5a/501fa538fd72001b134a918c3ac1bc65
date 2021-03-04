@@ -1,0 +1,27 @@
+package com.revature.exceptions;
+
+@SuppressWarnings("serial")
+public class FailedToAddCustomerException extends Exception{
+
+	public FailedToAddCustomerException() {
+		super();
+	}
+
+	public FailedToAddCustomerException(String message, Throwable cause, boolean enableSuppression,
+			boolean writableStackTrace) {
+		super(message, cause, enableSuppression, writableStackTrace);
+	}
+
+	public FailedToAddCustomerException(String message, Throwable cause) {
+		super(message, cause);
+	}
+
+	public FailedToAddCustomerException(String message) {
+		super(message);
+	}
+
+	public FailedToAddCustomerException(Throwable cause) {
+		super(cause);
+	}
+
+}

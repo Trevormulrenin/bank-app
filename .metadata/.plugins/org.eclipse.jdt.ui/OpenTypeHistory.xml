@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=BankApp/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.revature.dao{CustomerDAO.java[CustomerDAO" modifiers="513" timestamp="1613769432906"/>
+    <typeInfo handle="=BankApp/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.revature.dao{EmployeeDAO.java[EmployeeDAO" modifiers="513" timestamp="1613765813827"/>
+    <typeInfo handle="=BankApp/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.revature.dao{AccountDAO.java[AccountDAO" modifiers="513" timestamp="1613762612111"/>
+    <typeInfo handle="=BankApp/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.revature.dao{TransactionDAO.java[TransactionDAO" modifiers="513" timestamp="1613762633338"/>
+</typeInfoHistroy>

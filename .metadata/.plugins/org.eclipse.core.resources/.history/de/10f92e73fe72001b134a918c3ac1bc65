@@ -1,0 +1,30 @@
+package com.revature.ui;
+
+import com.revature.model.Customer;
+
+public class CustomerLogIn implements Menu{
+
+	public void displayApp() {
+		
+		logIn();
+		
+		
+		Customer c = new Customer();
+		System.out.println("Welcome " + c.getcFirstName() + "!\n");
+	
+		int choice = 0;
+		
+		try {
+			choice = Integer.parseInt(Menu.sc.nextLine());
+		} catch (NumberFormatException e) {
+		}
+	
+		do {
+		
+			System.out.println("Select an option from the navigation menu\n");
+			System.out.println("1. View Account");
+		}
+	}
+	
+
+}

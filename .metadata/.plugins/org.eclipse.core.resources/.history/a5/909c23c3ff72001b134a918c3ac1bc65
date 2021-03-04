@@ -1,0 +1,15 @@
+package com.revature.dao;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import com.revature.model.Customer;
+
+public interface CustomerDAO {
+	
+	public Customer createNewCustomer(String cUsername, String cPassword, String cFirstName, String cLastName, Connection con) throws SQLException;
+	
+	public Customer logInVerification(String cUsername, String cPassword, Connection connection) throws SQLException;
+	
+	
+}

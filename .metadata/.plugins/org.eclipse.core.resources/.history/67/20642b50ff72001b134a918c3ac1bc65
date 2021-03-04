@@ -1,0 +1,57 @@
+package com.revature.ui;
+
+import com.revature.exceptions.FailedToCreateCustomerException;
+import com.revature.model.Customer;
+
+public class CreateAnAccount implements Menu{
+
+	Customer customer = new Customer();
+
+	public void displayApp() {
+		
+		System.out.println("Please enter the following credentials: /n");
+		System.out.println("Username: ");
+			String un = sc.nextLine();
+			customer.setcUsername(un);
+		System.out.println("Password: ");
+			String pw = sc.nextLine();
+			customer.setcPassword(pw);
+		System.out.println("First name: ");
+			String fn = sc.nextLine();
+			customer.setcFirstName(fn);
+		System.out.println("Last name: ");
+			String ln = sc.nextLine();
+			customer.setcLastname(ln);
+		System.out.println("Starting balance: ");
+			int sb = sc.nextInt();
+			customer.setStartingBalance(sb);
+			
+		if(customer != null) {
+			try {
+				confirmAccount();
+			} catch (FailedToCreateCustomerException e) {
+				System.out.println("Invalid input. Please try again");
+			}
+		}
+	}
+	
+	public void confirmAccount() throws FailedToCreateCustomerException {
+		
+			System.out.println("Can you confirm the details of your account below?\n");
+			System.out.println(customer.toString());
+			System.out.println("\nAre these credentials correct?\n Type Y for Yes and N for No");
+			String createVerification = sc.nextLine();
+			
+			if(createVerification == "Y" || createVerification == "y") {
+				System.out.println("Thank you. You will be redirected to your Account page");
+				AccountMenu account = new AccountMenu();
+				account.displayApp();
+			} else if (createVerification == "N" || createVerification == "n") {
+				System.out.println("Please recreate your account");
+				customer = null;
+				displayApp();
+			}else {
+				throw new FailedToCreateCustomerException();
+			}
+	}
+}

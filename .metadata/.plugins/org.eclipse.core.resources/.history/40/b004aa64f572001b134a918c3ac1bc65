@@ -1,0 +1,22 @@
+package com.revature.dao;
+
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Connection;
+import com.revature.model.Customer;
+
+public class CustomerDAOImpl implements CustomerDAO {
+
+	public Customer createNewCustomer(String cUsername, String cPassword, String cFirstName, String cLastName, Connection con) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public boolean logInVerification(String cUsername, String cPassword, Connection con) {
+		String sql = "SELECT * FROM customers WHERE username = ? AND password = ?";
+		
+		PreparedStatement pstmt = con.prepareStatement(sql);
+		
+	}
+
+}

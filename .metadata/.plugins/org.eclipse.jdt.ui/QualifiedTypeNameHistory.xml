@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.postgresql.Driver"/>
+    <fullyQualifiedTypeName name="com.revature.ui.MainMenu"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.revature.dao.CustomerDAO"/>
+    <fullyQualifiedTypeName name="com.revature.dao.CustomerDAOImpl"/>
+    <fullyQualifiedTypeName name="com.revature.util.ConnectionUtil"/>
+    <fullyQualifiedTypeName name="com.revature.exceptions.FailedToAddCustomerException"/>
+    <fullyQualifiedTypeName name="com.revature.model.Customer"/>
+    <fullyQualifiedTypeName name="com.revature.exceptions.FailedToCreateCustomerException"/>
+    <fullyQualifiedTypeName name="com.revature.ui.AccountMenu"/>
+    <fullyQualifiedTypeName name="com.revature.ui.CustomerLogIn"/>
+    <fullyQualifiedTypeName name="com.revature.services.CustomerService"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,32 @@
+package com.revature.ui;
+
+import com.revature.model.Customer;
+import com.revature.services.CustomerService;
+
+public class CreateAnAccount implements Menu {
+
+	public void displayApp() {
+		Customer customer = new Customer();
+		
+		System.out.println("Please enter the following credentials: /n");
+		System.out.println("Username: ");
+			String username = sc.nextLine();
+			customer.setcUsername(username);
+		System.out.println("Password: ");
+			String password = sc.nextLine();
+			customer.setcPassword(password);
+		System.out.println("First name: ");
+			String firstName = sc.nextLine();
+			customer.setcFirstName(firstName);
+		System.out.println("Last name: ");
+			String lastName = sc.nextLine();
+			
+		
+		
+		
+		
+		
+		
+	}
+
+}

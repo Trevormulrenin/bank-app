@@ -1,0 +1,12 @@
+package com.revature.dao;
+
+import com.revature.model.Customer;
+
+public interface CustomerDAO {
+	
+	public Customer createNewCustomer(String cUsername, String cPassword, String cFirstName, String, cLastName);
+	
+	public boolean logInVerification(String cUsername, String cPassword);
+	
+	
+}

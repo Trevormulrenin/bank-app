@@ -1,0 +1,30 @@
+package com.revature.services;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import com.revature.dao.CustomerDAO;
+import com.revature.dao.CustomerDAOImpl;
+import com.revature.exceptions.FailedToAddCustomerException;
+import com.revature.model.Customer;
+import com.revature.util.ConnectionUtil;
+
+public class CustomerService {
+	public CustomerDAO customerDAO;
+	
+	public CustomerService() {
+		this.customerDAO = new CustomerDAOImpl();
+	}
+	
+	public Customer createNewCustomer(int cId, String cUsername, String cPassword, String cFirstName, String cLastName) throws SQLException, FailedToAddCustomerException {
+		Connection con = ConnectionUtil.getConnection();
+		
+		Customer customer = customerDAO.createNewCustomer(cUsername, cPassword, cFirstName, cLastName, con);
+		
+		if(customer == null) {
+			throw new FailedToAddCustomerException("Failed to create account, try again");
+		}
+		
+		return customer;
+	}
+}

@@ -1,0 +1,11 @@
+package com.revature.main;
+
+import com.revature.ui.MainMenu;
+
+public class Application {
+
+	public static void main(String[] args) {
+		MainMenu mm = new MainMenu();
+		mm.displayApp();
+	}
+}

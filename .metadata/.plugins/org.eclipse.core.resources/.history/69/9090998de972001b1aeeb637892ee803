@@ -1,0 +1,10 @@
+package com.revature.ui;
+
+public class CustomerLogIn implements Menu{
+
+	public void displayApp() {
+		
+		
+	}
+
+}

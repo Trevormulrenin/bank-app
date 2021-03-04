@@ -1,0 +1,53 @@
+package com.revature.model;
+
+public class Employee {
+	private int eId;
+	private String eUsername;
+	private String ePassword;
+	private String eFirstName;
+	private String eLastName;
+	
+	public Employee() {
+	}
+	
+	public Employee(int eId, String eUsername, String ePassword, String eFirstName, String eLastName) {
+		super();
+		this.eId = eId;
+		this.eUsername = eUsername;
+		this.ePassword = ePassword;
+		this.eFirstName = eFirstName;
+		this.eLastName = eLastName;
+	}
+	public int geteId() {
+		return eId;
+	}
+	public void seteId(int eId) {
+		this.eId = eId;
+	}
+	public String geteUsername() {
+		return eUsername;
+	}
+	public void seteUsername(String eUsername) {
+		this.eUsername = eUsername;
+	}
+	public String getePassword() {
+		return ePassword;
+	}
+	public void setePassword(String ePassword) {
+		this.ePassword = ePassword;
+	}
+	public String geteFirstName() {
+		return eFirstName;
+	}
+	public void seteFirstName(String eFirstName) {
+		this.eFirstName = eFirstName;
+	}
+	public String geteLastName() {
+		return eLastName;
+	}
+	public void seteLastName(String eLastName) {
+		this.eLastName = eLastName;
+	}
+	
+	
+}

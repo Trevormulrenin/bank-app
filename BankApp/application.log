@@ -1,0 +1,990 @@
+02-24-2021 Wednesday EST 11:19:21 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+02-24-2021 Wednesday EST 11:34:00 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: FATAL: database "bank_app" does not exist
+02-24-2021 Wednesday EST 11:47:28 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: FATAL: database "bank_app" does not exist
+02-24-2021 Wednesday EST 11:49:42 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: FATAL: database "bank_app@postgres" does not exist
+02-24-2021 Wednesday EST 14:12:55 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul was created successfully
+02-24-2021 Wednesday EST 14:17:00 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-24-2021 Wednesday EST 14:19:43 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-24-2021 Wednesday EST 14:34:13 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 09:58:18 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 10:14:56 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 11:45:16 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+02-25-2021 Thursday EST 11:45:16 {INFO} [com.revature.services.CustomerService] - Attempted to get User with username trevormul, but this user was not found in the database
+02-25-2021 Thursday EST 11:45:16 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+02-25-2021 Thursday EST 12:16:42 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 12:29:52 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 12:29:55 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 12:31:17 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 12:31:20 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 12:35:51 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 12:38:08 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 12:38:11 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 13:46:34 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 13:47:28 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 13:49:18 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 13:50:20 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 13:50:33 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 13:53:46 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 13:54:18 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 13:54:59 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 13:56:10 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 14:24:41 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 14:39:53 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 14:45:19 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 14:45:55 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 14:47:15 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 19:08:23 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 19:36:19 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 19:38:12 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 19:39:56 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 19:41:15 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-25-2021 Thursday EST 19:44:44 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-26-2021 Friday EST 09:55:52 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-26-2021 Friday EST 09:57:27 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-26-2021 Friday EST 10:58:48 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-26-2021 Friday EST 11:57:44 {INFO} [com.revature.services.CustomerService] - Customer with username: joesmith logged in successfully
+02-26-2021 Friday EST 12:02:43 {INFO} [com.revature.services.CustomerService] - Customer with username: joesmith logged in successfully
+02-27-2021 Saturday EST 12:47:49 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 12:50:05 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 12:52:55 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 12:55:21 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 12:56:40 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:02:22 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:04:00 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:10:20 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:15:50 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:16:10 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:17:47 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:17:53 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 13:18:27 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:18:28 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 13:19:06 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:20:03 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:21:12 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:23:50 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:24:34 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:25:33 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:28:31 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:32:15 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:32:16 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 13:33:10 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:33:11 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 13:33:22 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:34:56 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:34:59 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 13:35:10 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:38:42 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:41:15 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:41:38 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:42:52 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:44:10 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:44:56 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:46:53 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:47:34 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:48:52 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:52:55 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:54:21 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:56:28 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 13:57:00 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 15:10:10 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 15:46:00 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 15:46:01 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 15:49:35 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 15:49:38 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 15:54:06 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 15:54:08 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 15:54:51 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 15:54:51 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 15:59:05 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 15:59:06 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 16:03:50 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:03:55 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 16:04:03 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:15:31 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:16:04 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:16:06 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 16:17:59 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:18:00 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 16:22:21 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:22:23 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 16:23:33 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:23:34 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 16:24:25 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:24:25 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 16:29:21 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:29:22 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 16:29:55 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:29:56 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 16:30:16 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:30:17 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 16:33:33 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:33:34 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 16:34:56 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:34:56 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 16:35:52 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:35:53 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 16:38:53 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:38:55 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 16:39:11 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:39:12 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 16:39:52 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:39:54 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 16:40:59 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:41:00 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 16:44:11 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 16:44:15 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:19:35 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 17:19:37 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:21:04 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 17:21:05 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:22:03 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 17:22:04 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:23:46 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 17:23:47 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:24:44 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 17:24:45 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:25:41 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 17:25:42 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:26:31 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 17:26:32 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:27:28 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 17:27:29 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:31:34 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 17:31:36 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:32:02 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 17:32:03 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:32:46 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 17:32:47 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:34:37 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 17:34:37 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:35:51 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 17:35:51 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:37:07 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 17:37:08 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:38:35 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 17:38:36 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:38:51 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:40:48 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 17:40:50 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:41:15 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 17:41:29 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-27-2021 Saturday EST 17:45:21 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-27-2021 Saturday EST 17:45:22 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+02-28-2021 Sunday EST 21:40:46 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-28-2021 Sunday EST 21:42:24 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+02-28-2021 Sunday EST 21:46:05 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-01-2021 Monday EST 13:02:45 {INFO} [com.revature.services.CustomerService] - Incorrect employee username or password
+03-01-2021 Monday EST 14:02:14 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-01-2021 Monday EST 14:03:34 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-01-2021 Monday EST 14:03:53 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+03-01-2021 Monday EST 14:04:07 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-01-2021 Monday EST 14:04:08 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+03-01-2021 Monday EST 15:42:46 {INFO} [com.revature.services.CustomerService] - Incorrect employee username or password
+03-01-2021 Monday EST 16:21:18 {INFO} [com.revature.services.CustomerService] - Account verification successful
+03-01-2021 Monday EST 16:39:14 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-01-2021 Monday EST 16:39:56 {INFO} [com.revature.services.CustomerService] - Account verification successful
+03-01-2021 Monday EST 18:17:54 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-01-2021 Monday EST 18:29:50 {INFO} [com.revature.services.CustomerService] - Customer with username: janesmith1 logged in successfully
+03-01-2021 Monday EST 18:32:14 {INFO} [com.revature.services.CustomerService] - Customer with username: janesmith1 logged in successfully
+03-01-2021 Monday EST 18:37:17 {INFO} [com.revature.services.CustomerService] - Customer with username: janesmith1 logged in successfully
+03-01-2021 Monday EST 18:39:23 {INFO} [com.revature.services.CustomerService] - Customer with username: janesmith1 logged in successfully
+03-01-2021 Monday EST 18:43:23 {INFO} [com.revature.services.CustomerService] - Customer with username: janesmith1 logged in successfully
+03-01-2021 Monday EST 18:44:22 {INFO} [com.revature.services.CustomerService] - Customer with username: janesmith1 logged in successfully
+03-01-2021 Monday EST 18:46:53 {INFO} [com.revature.services.CustomerService] - Customer with username: janesmith1 logged in successfully
+03-01-2021 Monday EST 18:48:13 {INFO} [com.revature.services.CustomerService] - Customer with username: janesmith1 logged in successfully
+03-01-2021 Monday EST 18:52:41 {INFO} [com.revature.services.CustomerService] - Account verification successful
+03-01-2021 Monday EST 18:53:30 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-01-2021 Monday EST 23:35:21 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+03-01-2021 Monday EST 23:36:29 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+03-01-2021 Monday EST 23:38:03 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+03-01-2021 Monday EST 23:40:33 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+03-02-2021 Tuesday EST 11:54:20 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 12:24:15 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 12:27:22 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 12:51:49 {INFO} [com.revature.services.CustomerService] - Incorrect employee username or password
+03-02-2021 Tuesday EST 12:58:25 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+03-02-2021 Tuesday EST 12:58:46 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 12:58:49 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+03-02-2021 Tuesday EST 13:02:28 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 13:02:33 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+03-02-2021 Tuesday EST 13:03:01 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 13:03:02 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+03-02-2021 Tuesday EST 13:06:07 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 13:06:09 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+03-02-2021 Tuesday EST 13:08:48 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 13:08:49 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+03-02-2021 Tuesday EST 13:10:20 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 13:10:21 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+03-02-2021 Tuesday EST 13:16:44 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 13:16:45 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+03-02-2021 Tuesday EST 13:18:24 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 13:18:26 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+03-02-2021 Tuesday EST 13:19:00 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 13:19:01 {INFO} [com.revature.services.CustomerService] - Accounts successfully retrieved
+03-02-2021 Tuesday EST 13:20:35 {INFO} [com.revature.services.CustomerService] - Account verification successful
+03-02-2021 Tuesday EST 13:33:52 {INFO} [com.revature.services.EmployeeService] - Account verification successful
+03-02-2021 Tuesday EST 13:33:52 {INFO} [com.revature.services.CustomerService] - Log: Account confirmed successfully
+03-02-2021 Tuesday EST 13:37:38 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-02-2021 Tuesday EST 13:39:37 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-02-2021 Tuesday EST 13:45:05 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 14:10:07 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-02-2021 Tuesday EST 14:16:26 {INFO} [com.revature.services.EmployeeService] - Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 14:17:20 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 14:19:05 {INFO} [com.revature.services.EmployeeService] - Attempted to get Employee with username JohnD1223, but this employee was not found in the database
+03-02-2021 Tuesday EST 14:19:25 {INFO} [com.revature.services.EmployeeService] - Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 14:21:09 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 14:26:05 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 14:26:19 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 14:29:24 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 14:33:01 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 14:33:27 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 14:36:00 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 14:48:40 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 14:49:31 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 14:50:58 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 14:51:05 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 14:53:31 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 14:53:37 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 14:53:59 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 14:54:03 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 14:54:10 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 14:54:33 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 14:54:48 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-02-2021 Tuesday EST 14:55:32 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 14:56:44 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully denied
+03-02-2021 Tuesday EST 18:02:28 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 18:02:31 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 18:03:25 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 18:03:30 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 18:04:42 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 18:04:42 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 18:08:39 {INFO} [com.revature.services.CustomerService] - Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 18:09:06 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 18:17:14 {INFO} [com.revature.services.CustomerService] - Log: Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 18:17:21 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 18:18:03 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 18:18:13 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 18:26:38 {INFO} [com.revature.services.CustomerService] - Log: Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 18:26:40 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 18:35:08 {INFO} [com.revature.services.CustomerService] - Log: Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 18:35:15 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 18:35:29 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 19:07:04 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 19:38:41 {INFO} [com.revature.services.CustomerService] - Log: Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 19:38:43 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 19:41:29 {INFO} [com.revature.services.CustomerService] - Log: Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 19:41:33 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 19:57:41 {INFO} [com.revature.services.CustomerService] - Log: Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 19:58:46 {INFO} [com.revature.services.CustomerService] - Log: Customer with username: trevormul logged in successfully
+03-02-2021 Tuesday EST 20:01:24 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 20:03:50 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 20:03:52 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 20:04:13 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 20:08:36 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 20:08:39 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 20:11:37 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: janesmith1 logged in successfully
+
+03-02-2021 Tuesday EST 20:11:44 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 20:13:12 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 20:13:14 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 20:16:13 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: janesmith1 logged in successfully
+
+03-02-2021 Tuesday EST 20:16:14 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 20:36:27 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: janesmith1 logged in successfully
+
+03-02-2021 Tuesday EST 20:36:30 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 20:38:04 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: janesmith1 logged in successfully
+
+03-02-2021 Tuesday EST 20:38:05 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 20:39:03 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: janesmith1 logged in successfully
+
+03-02-2021 Tuesday EST 20:39:05 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 20:39:40 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: janesmith1 logged in successfully
+
+03-02-2021 Tuesday EST 20:39:46 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 20:50:40 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-02-2021 Tuesday EST 20:50:44 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 20:50:51 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-02-2021 Tuesday EST 20:55:27 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 20:56:38 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 20:57:58 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 20:58:10 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-02-2021 Tuesday EST 20:59:48 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 21:00:29 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-02-2021 Tuesday EST 21:02:08 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 21:02:57 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 21:05:48 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 21:05:49 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 21:07:26 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 21:07:30 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 21:09:26 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 21:09:27 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 21:10:19 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 21:10:47 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 21:10:48 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 21:11:28 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 21:11:29 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 21:12:30 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 21:12:30 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 21:14:23 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 21:14:25 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 21:18:06 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 21:18:21 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 21:20:00 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 21:20:01 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 21:20:29 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 21:20:30 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 21:21:28 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 21:21:29 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 21:26:22 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 21:26:48 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 21:28:14 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-02-2021 Tuesday EST 21:31:42 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: janesmith1 logged in successfully
+
+03-02-2021 Tuesday EST 21:31:44 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 21:32:51 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 21:32:53 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 21:36:11 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 21:36:13 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-02-2021 Tuesday EST 22:03:59 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+03-02-2021 Tuesday EST 22:04:00 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+03-02-2021 Tuesday EST 22:06:04 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+03-02-2021 Tuesday EST 22:09:20 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+03-02-2021 Tuesday EST 22:09:20 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:09:20 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+03-02-2021 Tuesday EST 22:09:20 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-02-2021 Tuesday EST 22:09:20 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+03-02-2021 Tuesday EST 22:09:20 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username joesmith, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:09:20 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+03-02-2021 Tuesday EST 22:09:20 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormul, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:09:20 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+03-02-2021 Tuesday EST 22:14:19 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:14:19 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-02-2021 Tuesday EST 22:14:19 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username joesmith, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:14:20 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 22:14:50 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:14:50 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-02-2021 Tuesday EST 22:14:50 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username joesmith, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:14:50 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 22:18:45 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:18:45 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-02-2021 Tuesday EST 22:18:45 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username joesmith, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:18:45 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 22:20:03 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:20:19 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-02-2021 Tuesday EST 22:20:19 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username joesmith, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:20:19 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 22:20:55 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:20:55 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-02-2021 Tuesday EST 22:20:55 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username joesmith, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:20:55 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 22:21:08 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:26:16 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-02-2021 Tuesday EST 22:26:16 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username joesmith, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:28:56 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:29:37 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:30:09 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:30:44 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:30:44 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-02-2021 Tuesday EST 22:30:45 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username joesmith1, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:30:45 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 22:30:50 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:31:37 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:33:54 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:35:02 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:36:11 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:36:34 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-02-2021 Tuesday EST 22:36:57 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:37:16 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:37:16 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-02-2021 Tuesday EST 22:37:16 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username joesmith1, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:37:16 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormul, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:37:57 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:37:58 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-02-2021 Tuesday EST 22:37:58 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username joesmith1, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:37:58 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-02-2021 Tuesday EST 22:50:41 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-02-2021 Tuesday EST 22:50:41 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-02-2021 Tuesday EST 22:50:41 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 09:54:41 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 09:55:49 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 10:00:44 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 10:03:23 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 10:06:36 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 10:07:30 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 10:09:05 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 10:09:37 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 10:12:10 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 10:13:57 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 10:21:04 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 10:23:17 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 10:23:29 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-03-2021 Wednesday EST 10:28:09 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: joesmith logged in successfully
+
+03-03-2021 Wednesday EST 10:29:07 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: joesmith logged in successfully
+
+03-03-2021 Wednesday EST 10:30:09 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: joesmith logged in successfully
+
+03-03-2021 Wednesday EST 10:30:43 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 10:33:34 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: joesmith logged in successfully
+
+03-03-2021 Wednesday EST 10:33:36 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 10:34:41 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: joesmith logged in successfully
+
+03-03-2021 Wednesday EST 10:34:58 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 10:35:09 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-03-2021 Wednesday EST 10:35:56 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 10:35:58 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 10:54:04 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 10:54:05 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:03:13 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:03:14 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:03:37 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:03:39 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:06:12 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:06:17 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:08:53 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:08:54 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:09:24 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 11:09:28 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-03-2021 Wednesday EST 11:09:43 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:09:46 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:09:56 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:11:17 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:11:20 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:13:32 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:13:33 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:14:27 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:14:29 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:19:38 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:19:39 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:21:11 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:21:12 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:22:02 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:22:04 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:23:33 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:23:34 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:25:04 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:25:05 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:26:22 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:26:23 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:26:25 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:27:31 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:27:32 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:29:49 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:29:51 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:31:04 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:31:05 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:31:13 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 11:31:54 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:31:55 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:32:06 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 11:32:19 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:32:20 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:32:37 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 11:33:52 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:33:53 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:34:54 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:34:55 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:44:48 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 11:44:52 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:49:01 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:49:01 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:49:06 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 11:49:30 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:49:35 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:50:36 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 11:51:26 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:51:27 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:51:31 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 11:53:03 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:53:04 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:53:17 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 11:56:01 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:56:07 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:56:37 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 11:56:47 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 1
+03-03-2021 Wednesday EST 11:59:07 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 11:59:08 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:00:23 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:00:23 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:00:44 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 2
+03-03-2021 Wednesday EST 12:01:07 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:01:09 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:02:14 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:02:15 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:06:15 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:06:16 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:06:44 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:06:45 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:10:10 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:10:11 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:11:31 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:11:34 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:12:35 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:12:39 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:13:33 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:13:34 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:15:11 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:15:12 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:15:19 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 12:17:33 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:17:40 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:17:47 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 12:18:05 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:18:06 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:18:43 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:18:44 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:19:10 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:19:10 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:19:17 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 12:19:41 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:19:42 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:19:47 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 12:25:51 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: joesmith logged in successfully
+
+03-03-2021 Wednesday EST 12:25:54 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:34:02 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:34:03 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:43:52 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:43:52 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:47:30 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:47:31 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:48:56 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:48:58 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:49:38 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:49:39 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:50:11 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:50:13 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:56:07 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:56:09 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 12:57:03 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 12:57:05 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 13:06:08 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-03-2021 Wednesday EST 13:06:08 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-03-2021 Wednesday EST 13:06:08 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 13:51:51 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-03-2021 Wednesday EST 13:51:52 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-03-2021 Wednesday EST 13:51:52 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormul, but this user was not found in the database
+
+03-03-2021 Wednesday EST 13:52:41 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-03-2021 Wednesday EST 13:52:41 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-03-2021 Wednesday EST 13:52:41 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 13:53:54 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-03-2021 Wednesday EST 13:54:38 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-03-2021 Wednesday EST 13:55:07 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 13:55:08 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 13:55:15 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 13:55:27 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-03-2021 Wednesday EST 13:56:01 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 13:56:57 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 13:56:57 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 13:57:01 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 13:57:32 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 13:57:33 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 13:57:37 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 14:01:23 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 14:01:24 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 14:01:29 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 14:01:49 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 14:01:49 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 14:01:54 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 14:15:05 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 14:15:06 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 14:15:10 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 14:28:57 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 14:28:59 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 14:31:11 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 14:34:30 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 14:34:31 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 14:34:38 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 14:36:55 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 14:36:58 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 14:37:18 {INFO} [com.revature.services.EmployeeService] - Transaction with transaction ID: 5 was not found
+03-03-2021 Wednesday EST 14:38:18 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 14:38:19 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 14:38:29 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 14:42:09 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 14:42:13 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 14:42:20 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 14:42:21 {INFO} [com.revature.services.EmployeeService] - Transaction with transaction ID: 5 was not found
+03-03-2021 Wednesday EST 14:42:26 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 14:42:27 {INFO} [com.revature.services.EmployeeService] - Transaction with transaction ID: 3 was not found
+03-03-2021 Wednesday EST 14:42:32 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 1 and account id: 3
+03-03-2021 Wednesday EST 14:50:15 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 14:50:16 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 14:50:24 {INFO} [com.revature.services.EmployeeService] - Transaction with transaction ID: 13 was not found
+03-03-2021 Wednesday EST 14:51:38 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 14:52:13 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 14:52:15 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 14:53:12 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 14:53:47 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 14:53:47 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 14:58:56 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 14:58:56 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 14:59:33 {INFO} [com.revature.services.EmployeeService] - Invalid verification from customer with ID: 1 and account: 1
+03-03-2021 Wednesday EST 14:59:39 {INFO} [com.revature.services.EmployeeService] - Verification successful from customer with ID: 1 and account: 1
+03-03-2021 Wednesday EST 15:01:20 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: joesmith logged in successfully
+
+03-03-2021 Wednesday EST 15:01:22 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 15:02:05 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 3 and account id: 5
+03-03-2021 Wednesday EST 15:02:10 {INFO} [com.revature.services.EmployeeService] - Transaction with transaction ID: 1 was not found
+03-03-2021 Wednesday EST 15:02:14 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 3 and account id: 5
+03-03-2021 Wednesday EST 15:17:31 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 15:17:36 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 15:19:12 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: joesmith logged in successfully
+
+03-03-2021 Wednesday EST 15:19:13 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 15:20:03 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 3 and account id: 5
+03-03-2021 Wednesday EST 15:20:08 {INFO} [com.revature.services.EmployeeService] - Transaction with transaction ID: 1 was not found
+03-03-2021 Wednesday EST 15:20:10 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 3 and account id: 5
+03-03-2021 Wednesday EST 15:26:51 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: joesmith logged in successfully
+
+03-03-2021 Wednesday EST 15:26:53 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 15:27:08 {INFO} [com.revature.services.EmployeeService] - Log: Incoming transactions received by customer with id: 3 and account id: 5
+03-03-2021 Wednesday EST 15:44:46 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 15:45:42 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 15:53:10 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 15:53:58 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 15:54:29 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 15:55:18 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 15:58:03 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 15:58:08 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 15:59:10 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 15:59:52 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 15:59:57 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 16:20:51 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 16:21:09 {INFO} [com.revature.services.EmployeeService] - Log: Pending account successfully confirmed
+03-03-2021 Wednesday EST 16:21:15 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 16:21:20 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 16:21:23 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 16:24:16 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 16:24:50 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 16:24:56 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 16:25:19 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 16:28:27 {INFO} [com.revature.services.CustomerService] - 
+Log: Customer with username: trevormul logged in successfully
+
+03-03-2021 Wednesday EST 16:28:50 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-03-2021 Wednesday EST 16:28:55 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 16:33:28 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+03-03-2021 Wednesday EST 16:33:49 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+03-03-2021 Wednesday EST 17:27:43 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 17:27:53 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 17:48:24 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+03-03-2021 Wednesday EST 17:48:24 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-03-2021 Wednesday EST 17:48:36 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+03-03-2021 Wednesday EST 17:48:36 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-03-2021 Wednesday EST 17:48:59 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+03-03-2021 Wednesday EST 17:48:59 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-03-2021 Wednesday EST 17:49:10 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+03-03-2021 Wednesday EST 17:49:10 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-03-2021 Wednesday EST 17:49:24 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+03-03-2021 Wednesday EST 17:49:24 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-03-2021 Wednesday EST 17:50:29 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+03-03-2021 Wednesday EST 17:50:29 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-03-2021 Wednesday EST 17:51:28 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-03-2021 Wednesday EST 17:52:25 {ERROR} [com.revature.util.ConnectionUtil] - Applcation unable to establish connection! Exception message is: The url cannot be null
+03-03-2021 Wednesday EST 17:52:25 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-03-2021 Wednesday EST 17:53:09 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-03-2021 Wednesday EST 17:54:39 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-03-2021 Wednesday EST 17:54:50 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password
+03-03-2021 Wednesday EST 17:54:56 {INFO} [com.revature.services.EmployeeService] - Log: Employee with username: JohnD123 logged in successfully
+03-03-2021 Wednesday EST 17:55:47 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormull, but this user was not found in the database
+
+03-03-2021 Wednesday EST 17:55:47 {INFO} [com.revature.services.CustomerService] - Log: Customer created successfully
+03-03-2021 Wednesday EST 17:55:47 {INFO} [com.revature.services.CustomerService] - 
+Log: Attempted to get User with username trevormul, but this user was not found in the database
+
+03-03-2021 Wednesday EST 18:00:35 {INFO} [com.revature.services.AccountService] - Log: Accounts successfully retrieved
+03-03-2021 Wednesday EST 19:31:00 {INFO} [com.revature.services.EmployeeService] - Incorrect employee username or password

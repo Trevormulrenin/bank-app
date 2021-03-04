@@ -1,0 +1,11 @@
+package com.revature.ui;
+
+import java.util.Scanner;
+
+import com.revature.exceptions.FailedToCreateCustomerException;
+
+public interface Menu {
+	public static final Scanner sc = new Scanner(System.in);
+	
+	void displayApp() throws FailedToCreateCustomerException;
+}

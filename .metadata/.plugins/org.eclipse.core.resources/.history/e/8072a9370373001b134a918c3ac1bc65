@@ -1,0 +1,48 @@
+package com.revature.ui;
+
+import java.sql.SQLException;
+
+import com.revature.model.Customer;
+import com.revature.services.CustomerService;
+
+public class CustomerLogIn implements Menu{
+
+	public CustomerService customerService;
+	
+	public CustomerLogIn() {
+		this.customerService = new CustomerService();
+	}
+	
+	public void displayApp() {
+		System.out.println("Username: ");
+		String un = sc.nextLine();
+		System.out.println("Password: ");
+		String pw = sc.nextLine();
+		
+		try {
+			customerService.logInVerificiation(un, pw);
+		} catch (SQLException e1) {
+		
+		}
+
+		Customer c = new Customer();
+		System.out.println("Welcome " + c.getcFirstName() + "!\n");
+	
+		int choice = 0;
+		
+		try {
+			choice = Integer.parseInt(Menu.sc.nextLine());
+		} catch (NumberFormatException e) {
+		}
+	
+
+			System.out.println("Select an option from the navigation menu/n");
+			System.out.println("1. View Account");
+		
+		
+	}
+	
+	public void logInVerification() {
+		
+	}
+}
