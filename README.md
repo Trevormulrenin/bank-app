@@ -33,4 +33,5 @@ Create an admin that can sign in / sign out, oversee the employees, add or remov
 Getting Started
 
 Clone the repository through GitBash
+
 Set up environment variables through run configuration
