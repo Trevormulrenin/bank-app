@@ -1,5 +1,7 @@
 Banking Application
+
 Project Description
+
 This was my first Java project so it did not contain any front-end, it was solely a console application. 
 The Banking API will manage the bank accounts of its users. It will be managed by the Bank's employees and admins. 
 Employees and Admins count as Standard users with additional abilities.
@@ -10,6 +12,7 @@ Standard users should be able to register and login to see their account informa
 Employees can view all customer information, but not modify in any way. Admins can both view all user information, as well as directly modify it
 
 Technologies Used
+
 Java
 SQL
 JDBC
@@ -28,5 +31,6 @@ Add a front-end for the application
 Create an admin that can sign in / sign out, oversee the employees, add or remove employees, and set up salaries for each employee based on status / occupation.
 
 Getting Started
+
 Clone the repository through GitBash
 Set up environment variables through run configuration
